@@ -11,6 +11,7 @@ module Synapse
     def initialize(opts={}, synapse)
       super()
 
+      @watcher = nil
       @synapse = synapse
 
       # set required service parameters
